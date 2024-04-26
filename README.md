@@ -1,0 +1,1 @@
+hover boganda buton chiqadi .
