@@ -1,0 +1,111 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.div1 {
+    width: 300px;
+    height: 80px;
+    border: 0.1px solid rgba(255, 251, 251, 0.042);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 100pc;
+    /* background: linear-gradient(150deg, blue, green, yellow, red); */
+    cursor: pointer;
+    box-shadow: 0px 0px 10px blue;
+    transition: 2s;
+    /* transform: box-shadow( 0px 0px 0px blue); */
+
+
+
+
+
+    >h1 {
+        font-size: 40px;
+        margin-top: 0.9pc;
+        text-align: center;
+        font-weight: 900;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        cursor: no-drop;
+        width: 130px;
+        height: auto;
+        /* border: 1px solid rgb(255, 255, 255); */
+        margin-left: 87px;
+    }
+}
+
+.musiqa1 {
+    display: none;
+}
+
+.div1:hover {
+    animation: name1 0.5s linear infinite;
+    /* animation-timing-function:calc(1s); */
+    /* animation-duration: 1s; */
+    border: 1px solid rgb(0, 0, 0);
+    /* border-radius: 0px; */
+    box-shadow: 0px 0px 50px blue;
+
+    >.musiqa1 {
+        position: absolute;
+        margin-top: 100px;
+
+
+    }
+
+    transition: 2s;
+
+
+
+
+}
+
+@keyframes name1 {
+    0% {
+        background: linear-gradient(150deg, rgb(3, 233, 3), yellow, red, blue);
+        transform: translate(3s);
+        box-shadow: 0px 0px 50px green;
+
+
+    }
+
+    25% {
+        background: linear-gradient(150deg, yellow, red, blue, green);
+        transform: translate(3s);
+        box-shadow: 0px 0px 50px yellow;
+
+
+
+    }
+
+    50% {
+        background: linear-gradient(150deg, red, blue, green, yellow);
+        transform: translate(3s);
+        box-shadow: 0px 0px 50px red;
+
+
+
+    }
+
+    75% {
+        background: linear-gradient(150deg, blue, green, yellow, red);
+        transform: translate(3s);
+        box-shadow: 0px 0px 50px blue;
+
+
+
+    }
+
+    100% {
+        background: linear-gradient(150deg, green, yellow, red, blue);
+        transform: translate(3s);
+        box-shadow: 0px 0px 50px green;
+
+
+
+    }
+
+
+}
